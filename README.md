@@ -1,11 +1,12 @@
 # ErrP-EEG-Classification
 Classification of Error-related Potential (ErrP) from EEG signals
 
-**Project Objective**
+### Project Objective
 
 In this mini project, we develop an offline brain–computer interface (BCI) classifier to detect Error-related Potentials (ErrPs) from EEG recordings. Leveraging a publicly available dataset, the aim is to explore flexible pipelines for data preprocessing, feature extraction, model design, and to present interpretable classification results.
 
-**Dataset**
+
+### Dataset
 
 We use the ErrP dataset shared by Chavarriaga and Millán (2010) [1], accessible under “22. Monitoring error-related potentials (013-2015)” at the BNCI Horizon 2020 portal:
 
@@ -13,7 +14,8 @@ https://bnci-horizon-2020.eu/database/data-sets
 
 This dataset consists of EEG recordings from six participants, each undergoing two sessions separated by several weeks. During the experiment, subjects monitored an external agent’s decisions (correct or incorrect), eliciting ErrPs on error trials. 
 
-**Implementation Details**
+
+### Implementation Details
 
 This repository provides a modular pipeline covering:
 
@@ -22,7 +24,8 @@ This repository provides a modular pipeline covering:
 3. Classification with extracted features and sLDA (classification_FCB_sLDA.ipynb) --> Baseline linear discriminant analysis.
 4. Transformer Classification with GAN-augmented data (classification_GAN_Transformer.ipynb) --> Data augmentation via generative adversarial networks and classification with a transformer network.
 
-**Utility Functions (bci_utils.py)**
+### Utility Functions (bci_utils.py)
+
 Comprehensive toolkit with functions including:
 
 - EEG spatial filtering (Fisher Criterion Beamformer, FCB)
@@ -32,7 +35,7 @@ Comprehensive toolkit with functions including:
 - Cross-validation methods (Stratified K-Fold, Leave-One-Group-Out, Leave-One-Session-Out)
 - Utility functions for results saving and serialization
 
-**Usage**
+### Usage
 
 Clone the repository and navigate into its root directory:
 
@@ -43,11 +46,11 @@ Open the notebooks in JupyterLab or Jupyter Notebook.
 
 Follow the execution order: preprocessing → feature extraction → classification.
 
-**Results**
+### Results
 
 Main performance metrics are stored in the results/ folder. 
 
-**References**
+### References
 
 [1] Chavarriaga, R., & Millán, J. d. R. (2010). Monitoring error-related potentials in BCI: Corrigendum and update. Journal of Neural Engineering.
 

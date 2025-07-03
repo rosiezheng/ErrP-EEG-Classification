@@ -21,7 +21,7 @@ This repository provides a modular pipeline covering:
 
 1. Data Preprocessing & Aggregation (data_preprocessing_aggregation.ipynb) --> Bandpass filtering, baseline correction, epoching, and trial aggregation.
 2. Feature Extraction & Selection (feature_extraction_selection.ipynb) --> Spatial filtering with Fisher Criterion Beamformer, see Toolbox https://github.com/gpiresML/FCB-spatial-filter [2]
-3. Classification with extracted features and sLDA (classification_FCB_sLDA.ipynb) --> Baseline linear discriminant analysis.
+3. Classification with extracted features and sLDA (classification_sLDA_FCB.ipynb) --> Baseline linear discriminant analysis.
 4. Transformer Classification with GAN-augmented data (classification_GAN_Transformer.ipynb) --> Data augmentation via generative adversarial networks and classification with a transformer network.
 
 ### Utility Functions (bci_utils.py)

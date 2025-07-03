@@ -1,0 +1,43 @@
+{
+    "datetime": "2025-07-03 12:10:43",
+    "function": "crossval_metrics_leave_one_group",
+    "parameters": {
+        "classifier": "sLDA",
+        "cv_method": "LOGO-session",
+        "bandpass": "0.5-10 Hz",
+        "epoch_window": "200-600 ms",
+        "feature_extraction": "FCB_55"
+    },
+    "pooled_metrics": {
+        "accuracy": 0.8555227590492466,
+        "balanced_accuracy": 0.7792364866763384,
+        "precision": 0.6478129713423831,
+        "recall": 0.6497730711043873,
+        "f1": 0.6487915407854985,
+        "confusion_matrix": [
+            [
+                4648,
+                467
+            ],
+            [
+                463,
+                859
+            ]
+        ],
+        "roc_auc": 0.8685042805193115
+    },
+    "fold_means": {
+        "accuracy": 0.8557694482380676,
+        "f1": 0.6484956915437419,
+        "precision": 0.6474431462668229,
+        "recall": 0.6495634062324762,
+        "balanced_accuracy": 0.7791931853054981
+    },
+    "fold_stds": {
+        "accuracy": 0.007120799589418858,
+        "f1": 0.03264203300715646,
+        "precision": 0.030649253137051913,
+        "recall": 0.03464712008331333,
+        "balanced_accuracy": 0.018686033626352516
+    }
+}

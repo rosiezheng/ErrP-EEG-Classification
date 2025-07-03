@@ -1,0 +1,43 @@
+{
+    "datetime": "2025-07-03 12:00:36",
+    "function": "crossval_metrics_stratified_kfold",
+    "parameters": {
+        "classifier": "sLDA",
+        "cv_method": "LOGO-subject",
+        "bandpass": "0.5-10",
+        "epoch_window": "200-600 ms",
+        "feature_extraction": "FCB_55"
+    },
+    "pooled_metrics": {
+        "accuracy": 0.8359484231784993,
+        "balanced_accuracy": 0.7464459637120806,
+        "precision": 0.6018376722817764,
+        "recall": 0.594553706505295,
+        "f1": 0.5981735159817352,
+        "confusion_matrix": [
+            [
+                4595,
+                520
+            ],
+            [
+                536,
+                786
+            ]
+        ],
+        "roc_auc": 0.835656156509214
+    },
+    "fold_means": {
+        "accuracy": 0.836727641803706,
+        "f1": 0.5997174620992328,
+        "precision": 0.6361639592923122,
+        "recall": 0.595966859566665,
+        "balanced_accuracy": 0.7477915438821565
+    },
+    "fold_stds": {
+        "accuracy": 0.04100421752676634,
+        "f1": 0.07050259664960509,
+        "precision": 0.1254698431672367,
+        "recall": 0.09753307644209704,
+        "balanced_accuracy": 0.042639357419726645
+    }
+}

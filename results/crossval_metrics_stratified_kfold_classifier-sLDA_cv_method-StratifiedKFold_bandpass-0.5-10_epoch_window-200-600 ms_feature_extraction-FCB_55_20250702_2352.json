@@ -1,0 +1,43 @@
+{
+    "datetime": "2025-07-02 23:52:02",
+    "function": "crossval_metrics_stratified_kfold",
+    "parameters": {
+        "classifier": "sLDA",
+        "cv_method": "StratifiedKFold",
+        "bandpass": "0.5-10",
+        "epoch_window": "200-600 ms",
+        "feature_extraction": "FCB_55"
+    },
+    "pooled_metrics": {
+        "accuracy": 0.8898555227590492,
+        "balanced_accuracy": 0.812058139345729,
+        "precision": 0.7586497890295358,
+        "recall": 0.6800302571860817,
+        "f1": 0.7171918627842042,
+        "confusion_matrix": [
+            [
+                4829,
+                286
+            ],
+            [
+                423,
+                899
+            ]
+        ],
+        "roc_auc": 0.9044874098458598
+    },
+    "fold_means": {
+        "accuracy": 0.8898548311591791,
+        "f1": 0.7175324488695876,
+        "precision": 0.7602379934736129,
+        "recall": 0.6800228702115494,
+        "balanced_accuracy": 0.8120544458584629
+    },
+    "fold_stds": {
+        "accuracy": 0.010126822467338988,
+        "f1": 0.02136685074849253,
+        "precision": 0.03871260041368344,
+        "recall": 0.012755851521990994,
+        "balanced_accuracy": 0.009931109212759248
+    }
+}

@@ -8,7 +8,7 @@ Comprehensive toolkit for brain-computer interface (BCI) pipelines, including:
 - r^2 feature evaluation and other feature selection tools
 - Data augmentation with generative adversarial networks (GANs)
 - Neural network models for EEG (Transformer, GAN Generator/Discriminator)
-- Cross-validation methods (Stratified K-Fold, Leave-One-Group-Out, Leave-One-Session-Out)
+- Cross-validation methods (Stratified K-Fold, Leave-One-Subject-Out, Leave-One-Session-Out)
 - Utility functions for results saving and serialization
 
 Parts of this code are adapted from:

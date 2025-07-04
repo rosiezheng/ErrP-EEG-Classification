@@ -1,0 +1,44 @@
+{
+    "datetime": "2025-07-02 02:23:51",
+    "function": "crossval_metrics_stratified_kfold",
+    "parameters": {
+        "classifier": "GAN_Transformer",
+        "cv_method": "StratifiedKFold",
+        "n_splits": 5,
+        "bandpass": "0.5-10 Hz",
+        "epoch_window": "200-600 ms",
+        "augmentation": "GAN"
+    },
+    "pooled_metrics": {
+        "accuracy": 0.8699704831443219,
+        "balanced_accuracy": 0.7846813752674863,
+        "precision": 0.7009113504556752,
+        "recall": 0.6399394856278366,
+        "f1": 0.6690391459074733,
+        "confusion_matrix": [
+            [
+                4754,
+                361
+            ],
+            [
+                476,
+                846
+            ]
+        ],
+        "roc_auc": 0.8771540498933013
+    },
+    "fold_means": {
+        "accuracy": 0.869970609101044,
+        "f1": 0.6691275956607214,
+        "precision": 0.7038597518662468,
+        "recall": 0.6399256718124643,
+        "balanced_accuracy": 0.7846744683598
+    },
+    "fold_stds": {
+        "accuracy": 0.007043583254141624,
+        "f1": 0.008537126434877364,
+        "precision": 0.034933752617116925,
+        "recall": 0.025679194559148296,
+        "balanced_accuracy": 0.007004518738251887
+    }
+}

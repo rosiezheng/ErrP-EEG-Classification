@@ -20,19 +20,19 @@ This dataset consists of EEG recordings from six participants, each undergoing t
 This repository provides a modular pipeline covering:
 
 1. Data Preprocessing & Aggregation (data_preprocessing_aggregation.ipynb) --> Bandpass filtering, baseline correction, epoching, and trial aggregation.
-2. Feature Extraction & Selection (feature_extraction_selection.ipynb) --> Spatial filtering with Fisher Criterion Beamformer, see Toolbox https://github.com/gpiresML/FCB-spatial-filter [2]
-3. Classification with extracted features and sLDA (classification_sLDA_FCB.ipynb) --> Baseline linear discriminant analysis.
-4. Transformer Classification with GAN-augmented data (classification_GAN_Transformer.ipynb) --> Data augmentation via generative adversarial networks and classification with a transformer network.
+2. Feature Extraction & Selection (feature_extraction_selection.ipynb) --> Spatial filtering with Fisher Criterion Beamformer, for which we used the FCB Toolbox https://github.com/gpiresML/FCB-spatial-filter and [2]
+3. Classification with extracted features and sLDA (classification_sLDA_FCB.ipynb) --> Simple model: shrinkage-regularized linear discriminant analysis.
+4. Transformer Classification with GAN-augmented data (classification_GAN_Transformer.ipynb) --> Complex model: data augmentation via generative adversarial networks and classification with a transformer network.
 
 ### Utility Functions (bci_utils.py)
 
 Comprehensive toolkit with functions including:
 
-- EEG spatial filtering (Fisher Criterion Beamformer, FCB)
+- EEG spatial filtering (Fisher Criterion Beamformer, FCB [2])
 - r^2 feature evaluation and other feature selection tools
 - Data augmentation with generative adversarial networks (GANs)
 - Neural network models for EEG (Transformer, GAN Generator/Discriminator)
-- Cross-validation methods (Stratified K-Fold, Leave-One-Group-Out, Leave-One-Session-Out)
+- Cross-validation methods (Stratified K-Fold, Leave-One-Subject-Out, Leave-One-Session-Out)
 - Utility functions for results saving and serialization
 
 ### Usage

@@ -52,6 +52,6 @@ Main performance metrics are stored in the results/ folder.
 
 ### References
 
-[1] Chavarriaga, R., & Millán, J. d. R. (2010). Monitoring error-related potentials in BCI: Corrigendum and update. Journal of Neural Engineering.
+[1] Chavarriaga R and Millán J R 2015 Data sets - 22. Monitoring error-related potentials (013-2015) (available at: http://bnci-horizon-2020.eu/database/data-sets)
 
 [2] Gabriel Pires, Urbano Nunes and Miguel Castelo-Branco (2011), "Statistical Spatial Filtering for a P300-based BCI: Tests in able-bodied, and Patients with Cerebral Palsy and Amyotrophic Lateral Sclerosis", Journal of Neuroscience Methods, Elsevier, 2011, 195(2), Feb. 2011: doi:10.1016/j.jneumeth.2010.11.016 https://www.sciencedirect.com/science/article/pii/S0165027010006503?via%3Dihub
